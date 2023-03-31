@@ -8,6 +8,10 @@ while(started--){
     $(document).keypress(function(){
         nextSequence();
     });
+    
+        $(".btn4").click(function(){
+        nextSequence();
+    });
 }
 
 
